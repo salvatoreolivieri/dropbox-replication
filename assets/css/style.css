@@ -12,22 +12,23 @@ header{
 /* logo */
 header .logo{
   width: 12%;
+  margin: 0px 10px;
 }
 
 header .logo img{
   vertical-align: middle;
-  padding-left: 10px;
 }
 
 
 /* menu */
 
 header .menu{
-  width: 25%;
+  width: 35%;
 }
 
 header .start-button{
   width: 5%;
+  margin-right: 15px;
 }
 
 
@@ -54,9 +55,39 @@ MAIN
 */
 
 /* hero-section */
+.hero-section{
+  background-color: #B4D0E7;
+  padding: 80px 0;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.text-description{
+  width: 30%;
+}
+
+.img-description{
+  width: 70%;
+}
+
+.img-description img{
+  width: 100%;
+}
+
+.fa-arrow-down{
+  font-size: 35px;
+  color: black;
+  text-transform: none;
+  margin-bottom: 20px;
+}
 
 
 
+/* column-section */
+
+.column-section{
+  padding: 80px 0;
+}
 
 
 /* 
