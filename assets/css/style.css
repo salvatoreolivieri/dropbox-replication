@@ -3,12 +3,58 @@
 HEADER
 */
 
+header{
+  height: 80px;
+  line-height: 80px;
+}
+
+
+/* logo */
+header .logo{
+  width: 12%;
+}
+
+header .logo img{
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+
+/* menu */
+
+header .menu{
+  width: 25%;
+}
+
+header .start-button{
+  width: 5%;
+}
+
+
+/* decorazione testi menu */
+header ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+header li:hover{
+  border-bottom: 2px solid black;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
 
 
 
 /* 
 MAIN
 */
+
+/* hero-section */
+
 
 
 
