@@ -269,4 +269,38 @@ FOOTER
 
 footer{
   background-color: black;
+  color: white;
+}
+
+span{
+  color: gray;
+}
+
+.nav-bar{
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.footer-link{
+  width: 20%;
+}
+
+footer h4{
+  margin-bottom: 20px;
+}
+
+footer ul li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+footer ul li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer hr{
+  width: 150px;
+  margin-bottom: 30px;
+  color: white;
 }
