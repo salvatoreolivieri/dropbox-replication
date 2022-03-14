@@ -125,17 +125,22 @@ COLONNE
 
 /* colonne */
 .column{
-  width: calc(100% / 3);
-  padding: 0 20px;
+  width: calc((100% / 3) - 40px);
 }
 
 .left-column{
   padding-left: 0px;
 }
 
+.center-column{
+  margin: 0px 60px;
+}
+
 .right-column{
   padding-right: 0px;
 }
+
+
 
 
 
@@ -157,7 +162,7 @@ COLONNE
 /* contenuti scritti dentro */
 .card{
   border: 1px solid gray;
-  min-height: 1100px;
+  min-height: 1200px;
 }
 
 .column-title{
@@ -184,7 +189,6 @@ COLONNE
   margin-top: 15px;
   width:20%;
   color: gray;
-
 }
 
 .content-column ul {
@@ -233,6 +237,7 @@ SEZIONE PARTNER
 
 .partner-text p{
   font-size: 20px;
+  line-height: 2rem;
 }
 
 .partner-text a{
@@ -255,13 +260,62 @@ SEZIONE FUNZIONALITA'
 
 .colonne-funzionalità{
   height: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+.colonne-funzionalità .column{
+  margin-bottom: 60px;
 }
 
 .column img{
   width: 90%;
   height: 90%;
 }
+
+
+
+/* 
+SEZIONE STRONZA' 
+ */
+
+.testimonial-section{
+  height: 500px;
+  color: blakc;
+}
+
+.colonna-loghi{
+  border: 1px solid black;
+  line-height: 100px;
+  height: 250px;
+  width: 50%;
+}
+
+.testimonial-section img{
+  height: 100%;
+  height: 50px;
+}
+
+.colonna-testimonial{
+  width: calc(100% / 3);
+}
+
+
+.testimonial-section hr{
+  margin-top: 15px;
+  width:20%;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.testimonial-section p{
+  margin-bottom: 50px;
+}
+
+.colonna-centrale-testimonial{
+  padding: 70px 50px;
+}
+
+
 
 
 

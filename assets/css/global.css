@@ -23,7 +23,7 @@ body{
 /* debug */
 
 .debug {
-  background-color: black;
+  background-color: yellow;
   border: 3px solid orange;
   opacity: 0.8;
 }
@@ -31,6 +31,10 @@ body{
 
 .w10{
   width: 10%;
+}
+
+.w25{
+  width: 25%;
 }
 
 .w30{
