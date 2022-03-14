@@ -35,8 +35,8 @@ header .start-button{
 /* decorazione testi menu */
 header ul li{
   list-style: none;
-  display: inline-block;
   padding-right: 25px;
+  display: inline-block;
 }
 
 header li:hover{
@@ -58,35 +58,149 @@ MAIN
 .hero-section{
   background-color: #B4D0E7;
   padding: 80px 0;
-  height: 600px;
+  height: 70vh;
   margin-bottom: 100px;
 }
 
 .text-description{
   width: 30%;
+  margin-right: 40px;
 }
 
 .img-description{
-  width: 70%;
+  width: 60%;
 }
 
 .img-description img{
   width: 100%;
 }
 
+
+.hero-section p{
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.hero-section span{
+  display: inline-block;
+  font-size: 16px;
+  
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+
 .fa-arrow-down{
-  font-size: 35px;
+  font-size: 45px;
   color: black;
   text-transform: none;
   margin-bottom: 20px;
 }
 
 
-
 /* column-section */
 
 .column-section{
   padding: 80px 0;
+}
+
+.column-section span{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fa-circle-dot{
+  color: #2661FF;
+}
+
+
+/* 
+COLONNE 
+*/
+
+/* contenitore */
+.column-container{
+  margin-top: 30px;
+}
+
+/* colonne */
+.column{
+  width: calc(33.33% - 80px);
+  border: 1px solid gray;
+  height: 1100px;
+}
+
+.center-column{
+  margin: 0px 40px;
+}
+
+/* contenuto */
+.content-column{
+  padding: 25px;
+}
+
+/* spaziattura */
+.spaziatura-little{
+  margin-bottom: 10px;
+}
+
+.spaziatura-big{
+  margin-bottom: 30px;
+}
+
+
+/* contenuti scritti dentro */
+.column-title{
+  text-align: center;
+  border-bottom: 1px solid;
+  padding: 10px 0;;
+}
+
+
+.cta-pacchetto a{
+  display: inline-block;
+}
+
+.cta-pacchetto span a{
+  color: #2661FF;
+}
+
+
+.content-column strong, .content-column span{
+  display: inline-block;
+}
+
+.content-column hr{
+  margin-top: 15px;
+  width:20%;
+  color: gray;
+
+}
+
+.content-column ul {
+  list-style: none;
+}
+
+.content-column ul li:before {
+  content: '\2714';
+  color: #2661FF;
+}
+
+
+/* colonna full width */
+
+.column-full-width{
+  border: 1px solid gray; 
+  margin-top: 50px
+}
+
+.column-left{
+  width: 70%;
+}
+
+.column-right{
+  width: 30%;
+  padding-top: 25px;
 }
 
 
