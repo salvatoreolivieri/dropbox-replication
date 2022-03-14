@@ -237,6 +237,9 @@ SEZIONE PARTNER
 
 .partner-text a{
   border: 1px solid black;
+}
+
+.bottone-cta{
   padding: 10px 15px;
   background-color: white;
   cursor: pointer;
@@ -262,6 +265,50 @@ SEZIONE FUNZIONALITA'
 
 
 
+/* 
+SEZIONE CTA AZIENDA' 
+ */
+
+.agency-cta{
+  background-color: #B4D0E7;
+}
+
+.container-agency-cta{
+  padding: 120px 0;
+  height: 300px;
+}
+
+.agency-cta h2{
+  color: #61082A;
+}
+
+.agency-cta .agency-btn{
+  vertical-align: middle;
+}
+
+
+
+/* 
+SEZIONE DOMANDE FREQUENTI
+ */
+
+.faq-section{
+  padding: 150px 0;
+}
+
+.faq-section h2{
+  border-bottom: 1px solid gray;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+
+
+.question{
+  border-bottom: 1px solid gray;
+  padding: 40px 0;
+}
+
+
 
 /* 
 FOOTER
@@ -272,17 +319,18 @@ footer{
   color: white;
 }
 
-span{
+footer span{
   color: gray;
 }
 
 .nav-bar{
   padding-top: 80px;
   margin-bottom: 80px;
+  height: 300px;
 }
 
 .footer-link{
-  width: 20%;
+  width: calc(100% / 5);
 }
 
 footer h4{
