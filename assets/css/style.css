@@ -125,14 +125,19 @@ COLONNE
 
 /* colonne */
 .column{
-  width: calc(33.33% - 80px);
-  border: 1px solid gray;
-  height: 1100px;
+  width: calc(100% / 3);
+  padding: 0 20px;
 }
 
-.center-column{
-  margin: 0px 40px;
+.left-column{
+  padding-left: 0px;
 }
+
+.right-column{
+  padding-right: 0px;
+}
+
+
 
 /* contenuto */
 .content-column{
@@ -150,6 +155,11 @@ COLONNE
 
 
 /* contenuti scritti dentro */
+.card{
+  border: 1px solid gray;
+  min-height: 1100px;
+}
+
 .column-title{
   text-align: center;
   border-bottom: 1px solid;
@@ -202,6 +212,55 @@ COLONNE
   width: 30%;
   padding-top: 25px;
 }
+
+
+
+/* 
+SEZIONE PARTNER 
+ */
+
+ .partnership{
+   margin-bottom: 100px;
+ }
+
+ .partnership .partner-img img{
+  width: 100%;
+ }
+
+.partnership .partner-text{
+  padding: 100px 40px 0px 40px;
+}
+
+.partner-text p{
+  font-size: 20px;
+}
+
+.partner-text a{
+  border: 1px solid black;
+  padding: 10px 15px;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* 
+SEZIONE FUNZIONALITA' 
+ */
+
+.colonne-funzionalità{
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.column img{
+  width: 90%;
+  height: 90%;
+}
+
+
 
 
 /* 
