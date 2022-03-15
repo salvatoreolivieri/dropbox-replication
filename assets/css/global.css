@@ -18,6 +18,14 @@ body{
   text-decoration: none;
 }
 
+.cta-button:hover{
+  background-color: #4d6fca;
+}
+
+.bottone-cta:hover{
+  background-color: black;
+  color: white;
+}
 
 
 /* debug */

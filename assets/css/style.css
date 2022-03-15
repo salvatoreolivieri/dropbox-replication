@@ -21,7 +21,7 @@ header .logo img{
 
 /* menu */
 
-header .menu {
+header .menu .text-left{
   width: 30%;
 }
 
@@ -55,6 +55,30 @@ header a{
 
 
 
+/* bonus */
+
+.subnavbtn{
+  position: relative;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 100;
+  background-color: RED;
+  width: 65px;
+  z-index: 500;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+.subnavbtn:hover .subnav-content{ 
+display: inline-block;
+}
+
+
+
 /* 
 MAIN
 */
@@ -67,6 +91,11 @@ MAIN
   height: 700px;
 }
 
+.hero-section-container{
+  position: relative;
+  bottom: -80px;
+}
+
 .text-description{
   width: 30%;
   /* margin-right: 40px; */
@@ -74,7 +103,6 @@ MAIN
 
 .img-description{
   width: 70%;
-  margin-top: 30px;
 }
 
 .img-description img{
@@ -295,8 +323,6 @@ SEZIONE STRONZA'
   color: blakc;
 }
 
-
-
 .colonna-testimonial{
   width: 30vw;
   text-align: center;
@@ -318,7 +344,10 @@ SEZIONE STRONZA'
   width: 15vw;
   height: 15vw;
   line-height: 15vw;
-  color: white;
+}
+
+.square img{
+  filter: invert(1);
 }
 
 .testimonial-section img{
@@ -421,10 +450,23 @@ SEZIONE DOMANDE FREQUENTI
 
 .question p{
   display: none;
+  margin-top: 30px;
 }
 
-.question:hover{
-  display: inline-block;
+.question:hover p{
+  display: block;
+}
+
+.question:hover .fa-angle-down{
+  display: none;
+}
+
+.question .fa-angle-up{
+  display: none;
+}
+
+.question:hover .fa-angle-up{
+  display: block;
 }
 
 
