@@ -4,15 +4,14 @@ HEADER
 */
 
 header{
-  height: 80px;
   line-height: 80px;
 }
 
 
 /* logo */
 header .logo{
-  width: 12%;
-  margin: 0px 10px;
+  width: 10%;
+  margin: 0px 20px;
 }
 
 header .logo img{
@@ -22,12 +21,16 @@ header .logo img{
 
 /* menu */
 
-header .menu{
-  width: 35%;
+header .menu {
+  width: 30%;
 }
 
+/* header .menu.text-right{
+  width: 40%;
+} */
+
 header .start-button{
-  width: 5%;
+  width: 10%;
   margin-right: 15px;
 }
 
@@ -35,8 +38,9 @@ header .start-button{
 /* decorazione testi menu */
 header ul li{
   list-style: none;
-  padding-right: 25px;
+  margin-right: 30px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 header li:hover{
@@ -46,6 +50,7 @@ header li:hover{
 header a{
   text-decoration: none;
   color: black;
+  vertical-align: middle;
 }
 
 
@@ -58,21 +63,26 @@ MAIN
 .hero-section{
   background-color: #B4D0E7;
   padding: 80px 0;
-  height: 70vh;
   margin-bottom: 100px;
+  height: 700px;
 }
 
 .text-description{
   width: 30%;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .img-description{
-  width: 60%;
+  width: 70%;
+  margin-top: 30px;
 }
 
 .img-description img{
   width: 100%;
+}
+
+.hero-section .cta-button{
+  display: inline-block;
 }
 
 
@@ -210,6 +220,10 @@ COLONNE
   padding-top: 25px;
 }
 
+.column-full-width .cta-button{
+  display: inline-block;
+}
+
 
 
 /* 
@@ -243,6 +257,7 @@ SEZIONE PARTNER
   cursor: pointer;
   text-decoration: none;
   color: black;
+  display: inline-block;
 }
 
 
