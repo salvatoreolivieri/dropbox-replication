@@ -128,17 +128,10 @@ COLONNE
   width: calc((100% / 3) - 40px);
 }
 
-.left-column{
-  padding-left: 0px;
-}
-
 .center-column{
   margin: 0px 60px;
 }
 
-.right-column{
-  padding-right: 0px;
-}
 
 
 
@@ -260,7 +253,7 @@ SEZIONE FUNZIONALITA'
 
 .colonne-funzionalità{
   height: 100%;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .colonne-funzionalità .column{
@@ -273,32 +266,85 @@ SEZIONE FUNZIONALITA'
 }
 
 
+.cta{
+  margin-bottom: 50px;
+}
+
 
 /* 
 SEZIONE STRONZA' 
  */
 
 .testimonial-section{
-  height: 500px;
+  height:  30vw;
   color: blakc;
 }
 
-.colonna-loghi{
-  border: 1px solid black;
-  line-height: 100px;
-  height: 250px;
-  width: 50%;
+
+
+.colonna-testimonial{
+  width: 30vw;
+  text-align: center;
+}
+
+.colonna-centrale-testimonial{
+  padding: 70px 50px;
+  background-color: #F5F5F5;
+  height: 30vw;
+  overflow: scroll;
+}
+
+
+
+/* quadrati */
+
+.square{
+  height: width;
+  width: 15vw;
+  height: 15vw;
+  line-height: 15vw;
+  color: white;
 }
 
 .testimonial-section img{
-  height: 100%;
-  height: 50px;
+  width: 100px;
+  vertical-align: middle;
 }
 
-.colonna-testimonial{
-  width: calc(100% / 3);
+.red{
+  background-color: #F51C1E;
 }
 
+.brown{
+  background-color: #61082A;
+}
+
+.green{
+  background-color: #A2D39B;
+}
+
+.blue{
+  background-color: #0D2481;
+}
+
+.azzurro{
+  background-color: #3093CE;
+}
+
+.celeste{
+  background-color: #B4D0E7;
+}
+
+.yellow{
+  background-color: #FBD830
+}
+
+
+/* colonna centrale */
+
+.colonna-testo{
+  width: 40vw;
+}
 
 .testimonial-section hr{
   margin-top: 15px;
@@ -309,10 +355,6 @@ SEZIONE STRONZA'
 
 .testimonial-section p{
   margin-bottom: 50px;
-}
-
-.colonna-centrale-testimonial{
-  padding: 70px 50px;
 }
 
 
@@ -362,6 +404,13 @@ SEZIONE DOMANDE FREQUENTI
   padding: 40px 0;
 }
 
+.question p{
+  display: none;
+}
+
+.question:hover{
+  display: inline-block;
+}
 
 
 /* 
